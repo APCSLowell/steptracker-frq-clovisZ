@@ -8,7 +8,7 @@ public class StepTracker
  public StepTracker(int steps) {
   stepsGoal = steps;
  }
- public int addDailySteps(int steps) {
+ public addDailySteps(int steps) {
   stepsTotal += steps;
   daysTotal++;
   if (steps >= stepsGoal) daysActive++;
