@@ -5,7 +5,7 @@ public class StepTracker
  private int daysActive = 0;
  private int stepsTotal = 0;
  private int stepsGoal;
- public stepTracker(int steps) {
+ public StepTracker(int steps) {
   stepsGoal = steps;
  }
  public int addDailySteps(int steps) {
